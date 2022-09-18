@@ -32,7 +32,10 @@ body, html {
   background-color: rgba(23, 25, 35, 0.397);
 }
 
-.chat::-webkit-scrollbar-button {
-  color: blue;
+.message {
+  cursor: default;
 }
 
+.message:hover {
+  cursor: default
+}

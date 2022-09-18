@@ -20,7 +20,7 @@ export const Message = ({ content, auth }) => {
 
   if (messageType == "sent") {
     return (
-      <Flex m="2" onClick={showDetails} direction="column">
+      <Flex m="2" onClick={showDetails} direction="column" className="message">
         <Flex justifyContent="flex-end">
           <Box
             width="fit-content"
@@ -49,7 +49,7 @@ export const Message = ({ content, auth }) => {
     );
   } else {
     return (
-      <Flex m="2" onClick={showDetails} direction="column">
+      <Flex m="2" onClick={showDetails} direction="column" className="message">
         <Flex>
           <Box mr="1">
             <Image
